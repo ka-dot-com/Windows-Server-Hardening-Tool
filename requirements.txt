@@ -1,1 +1,1 @@
-# No external dependencies required
+tk==8.6.12
