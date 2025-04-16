@@ -1,21 +1,16 @@
 # Windows Server Hardening Tool
 
-A Python script to secure Windows Servers by applying CIS benchmark recommendations, like disabling risky protocols and enabling the firewall
+A Python tool for securing Windows Servers by hardening settings and verifying compliance with security policies. Includes an intuitive GUI for easier interaction.
 
-## How It Works
-- Uses PowerShell to tweak server settings
-- Checks for common security gaps
-- Generates a report of changes made
+## Features
+- Harden server settings (e.g., disable SMB1, enable firewalls)
+- Check password policies to ensure compliance with security best practices
+- Easy-to-use GUI for both technical and non-technical users
 
 ## Setup
 1. Install Python 3.8+
-2. Run `python hardening.py`
+2. Run `pip install -r requirements.txt`
+3. Execute `python hardening.py`
 
 ## Use Case
-Saves time for admins setting up secure servers. Ideal for small IT teams who need a quick way to lock down systems
-
-## Future Improvements
-- Add checks for password policies
-- Create a GUI for easier interaction
-
-Contact: kswierczynska21@gmail.com
+Ideal for system administrators looking to quickly and efficiently secure Windows Servers, ensuring they meet organizational security standards
